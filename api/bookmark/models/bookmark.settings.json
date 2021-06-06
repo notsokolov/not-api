@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "authors",
+  "collectionName": "bookmarks",
   "info": {
-    "name": "Author"
+    "name": "bookmark",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,8 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }

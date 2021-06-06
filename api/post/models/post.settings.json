@@ -35,8 +35,9 @@
         "draft"
       ]
     },
-    "author": {
-      "model": "author"
+    "pinned": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

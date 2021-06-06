@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/authors",
-      "handler": "author.find",
+      "path": "/bookmarks",
+      "handler": "bookmark.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/authors/count",
-      "handler": "author.count",
+      "path": "/bookmarks/count",
+      "handler": "bookmark.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/authors/:id",
-      "handler": "author.findOne",
+      "path": "/bookmarks/:id",
+      "handler": "bookmark.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/authors",
-      "handler": "author.create",
+      "path": "/bookmarks",
+      "handler": "bookmark.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/authors/:id",
-      "handler": "author.update",
+      "path": "/bookmarks/:id",
+      "handler": "bookmark.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/authors/:id",
-      "handler": "author.delete",
+      "path": "/bookmarks/:id",
+      "handler": "bookmark.delete",
       "config": {
         "policies": []
       }
