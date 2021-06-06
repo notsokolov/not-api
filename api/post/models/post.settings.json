@@ -21,19 +21,9 @@
     "excerpt": {
       "type": "string"
     },
-    "date": {
-      "type": "date"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
-    },
-    "status": {
-      "type": "enumeration",
-      "enum": [
-        "published",
-        "draft"
-      ]
     },
     "pinned": {
       "type": "boolean",

@@ -15,9 +15,6 @@
     "title": {
       "type": "string"
     },
-    "date": {
-      "type": "date"
-    },
     "content": {
       "type": "richtext"
     }
